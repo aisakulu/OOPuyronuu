@@ -3,7 +3,7 @@ package com.peakSoft;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
         Laptop lenovo = new Laptop();
 
@@ -14,8 +14,10 @@ public class Main {
         lenovo.systemType = 64;
         lenovo.operatingSystem = "Windows 11";
 
-       lenovo.turnOn();
-       lenovo.turnOff();
+        Laptop acer = new Laptop();
+
+        lenovo.turnOn();
+        lenovo.turnOff();
 
     }
 }

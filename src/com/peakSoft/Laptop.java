@@ -9,11 +9,12 @@ public class Laptop {
     String operatingSystem;
 
     void turnOn() {
-        System.out.println("Notebook is turn on");
+        System.out.println(modelName + " is turn on");
         boolean turnOn = true;
     }
+
     void turnOff() {
-        System.out.println("Notbook is turn off");
+        System.out.println(modelName + " is turn off");
         boolean turnOff = false;
     }
 }
